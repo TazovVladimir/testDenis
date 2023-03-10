@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+:root{
+    --back:#fff;
+    --color-text: #000;
+    --btn-back:#0477C9;
+    --btn-color:#ffffff;
+    --nav-back: #F3F3F3;
+    --bread-first: #5DA7DD;
+    --bread-active: #616161;
+    --main: #F8FCFE;
+    --h3: #000;
+    --border: #BEBEBE;
+    --icon-col:#000;
+    --place-col:#4581A8;
+    --radio-label:#616161;
+    --drop-a:#616161;
+    --btn-back-a-hover:#0477C9;
+    --bx-xs:#616161;
+    --border-right:rgba(4, 118, 200, 0.059);
+    --logo:#0088ff;
+    --name-comp:#0477C9;
+    --animation-width: width 700ms ease;
+    --animation-opacity: opacity 700ms ease;
+   
+}
+:root[data-theme-name="light"]{
+    --color-404:#BADEF5;
+    --back:#fff;
+    --color-text: #000;
+    --btn-back:#0477C9;
+    --btn-color:#ffffff;
+    --nav-back: #F3F3F3;
+    --bread-first: #5DA7DD;
+    --bread-active: #616161;
+    --main: #F8FCFE;
+    --h3: #000;
+    --border: #BEBEBE;
+    --icon-col:#000;
+    --place-col:#4581A8;
+    --radio-label:#616161;
+    --drop-a:#616161;
+    --btn-back-a-hover:#0477C9;
+    --bx-xs:#616161;
+    --border-right:rgba(4, 118, 200, 0.059);
+    --logo:#0477C9;
+    --name-comp:#000;
+    --btn-b: #0477C9;
+    --footer-back: #BADEF5;
+    --footer-nav-a: #4A4A4A;
+    --footer-logo:#4A4A4A;
+    --footer-border: #BADEF5;
+    --card-rating:#000;
+    --card-rating-value: #000;
+    --view_mode_color: #0477C9;
+    --discountCount_back: #d61b1b;
+    --discountCount_color: #fff;
+    --checkBox_back_active: #c5e4f7;
+    --checkBox_back_disable: #dadada;
+}
+:root[data-theme-name="dark"] {
+    --color-404:#8C8C8C;
+    --back:#292929;
+    --color-text: #fff;
+    --btn-back:#303436;
+    --btn-color:#ffffff;
+    --nav-back: #303436;
+    --bread-first: #5DA7DD;
+    --bread-active: #616161;
+    --main: #303436;
+    --h3: #fff;
+    --border: #474747;
+    --icon-col:#fff;
+    --place-col:#9B9B9B;
+    --radio-label:#fff;
+    --drop-a:#A7A7A7;
+    --btn-back-a-hover:#fff;
+    --bx-xs:#A7A7A7;
+    --border-right:#303436;
+    --logo:#ffffff;
+    --name-comp:#fff;
+    --btn-b: #fff;
+    --footer-back: #292929;
+    --footer-nav-a: #A7A7A7;
+    --footer-logo:#fff;
+    --footer-border: #3a3a3a;
+    --card-rating:#646464;
+    --card-rating-value: #fff;
+    --view_mode_color: #A7A7A7;
+    --discountCount_back: #d61b1b;
+    --discountCount_color: #fff;
+    --checkBox_back_active: #dddddd;
+    --checkBox_back_disable: #5b6266;
+}
+li,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

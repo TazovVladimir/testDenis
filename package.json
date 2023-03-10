@@ -1,0 +1,23 @@
+{
+  "name": "diplomvuenodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1",
+    "vue": "^3.2.45",
+    "vue-3-breadcrumbs": "^2.0.0",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
